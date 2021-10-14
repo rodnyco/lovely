@@ -1,7 +1,7 @@
 {
-  "name": "static-html-webpack-boilerplate",
-  "version": "1.1.1",
-  "description": "Modern tooling for old-school static webpage development",
+  "name": "lovaly",
+  "version": "0.0.1",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
@@ -11,12 +11,6 @@
     "start:dev": "webpack-dev-server --config webpack.config.dev.js",
     "start": "webpack --config webpack.config.prod.js && http-server ./dist -o"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/erickzhao/static-html-webpack-boilerplate.git"
-  },
-  "author": "erick zhao",
-  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.8.6",

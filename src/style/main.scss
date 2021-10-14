@@ -1,9 +1,46 @@
+@import "./fonts.scss";
+
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
+  background-color: rgb(182, 246, 248);
+  font-family: 'o';
+  font-style: normal;
 }
 
-img {
-  display: block;
-  margin: 50px auto;
+.navbar {
+  padding: 5px 20px 5px 20px;
+  background-color: #fff;
+  justify-content: center;
+  .menu {
+    flex-grow: 0;
+  }
+
+}
+
+a.underline {
+  position: relative;
+  padding: 2px;
+}
+
+a.underline:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d3bb97;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+
+a.underline:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
 }
