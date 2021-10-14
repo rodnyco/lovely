@@ -62,3 +62,4 @@ dist
 
 
 src/static/*
+!src/static/.gitkeep
