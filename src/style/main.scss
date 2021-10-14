@@ -13,7 +13,6 @@ body {
   .menu {
     flex-grow: 0;
   }
-
 }
 
 a.underline {
@@ -43,4 +42,11 @@ a.underline:hover:before {
 .logo {
   max-width: 100px;
   max-height: 100px;
+}
+
+
+@media (max-width: 991px) {
+  .navbar {
+    justify-content:space-between;
+  }
 }
