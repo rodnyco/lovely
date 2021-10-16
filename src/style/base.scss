@@ -1,5 +1,4 @@
 body {
-  background-color: $base-gold;
   font-family: 'o';
   font-style: normal, sans-serif;
 }
@@ -32,3 +31,8 @@ a.underline:hover:before {
   max-width: 100px;
   max-height: 100px;
 }  
+
+//UTIL
+.up-30 {
+  padding: 0 30px 0 30px;
+} 

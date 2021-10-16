@@ -1,0 +1,27 @@
+.help {
+  padding-bottom: 40px;
+}
+
+.help__about {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../static/childrens.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: $white;
+  font-weight: 900;
+  background-color: khaki;
+  padding: 40px 0 40px 0px;
+}
+
+.help__donation {
+  padding: 15px 0 40px 0;
+}
+
+.donation__title {
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0 25px 0 25px;
+  border-bottom: 2px solid $base-gold;
+}
