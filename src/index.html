@@ -35,7 +35,7 @@
       <section class="help">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 col-md-7 m-0 p-0">
+            <div class="col-12 col-md-6 m-0 p-0">
               <aside class="help__about about">
                 <h2 class="about__title up-30">Фонд прекрасные люди помогает детям с особенностями</h2>
                 <ul class="about__points up-30">
@@ -47,25 +47,39 @@
                 <p class="about__information up-30">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium iure dignissimos suscipit libero nobis quod quasi quia pariatur nemo, nostrum dolores nulla ad officia? Sit aperiam alias esse officia!
                 </p>
+                <p class="about__information up-30">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium iure dignissimos suscipit libero nobis quod quasi quia pariatur nemo, nostrum dolores nulla ad officia? Sit aperiam alias esse officia!
+                </p>
               </aside>
             </div>
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-6">
               <section class="help__donation donation">
                 <h2 class="donation__title">Я хочу сделать пожертвование</h2>
                 <form class="donation__form">
-                  <div class="mb-3">
+                  <label for="donation-form-sum" class="form-label">Укажите сумму:</label>
+                  <div class="input-group input-group-lg mb-2">
+                    <input id="donation-form-sum" type="text" class="form-control" placeholder="Сумма" aria-label="Сумма доната" aria-describedby="basic-addon2">
+                    <span class="input-group-text donation__currency" id="basic-addon2">₽</span>
+                  </div>
+                  <div class="mb-1">
                     <label for="donation-form-first-name" class="form-label">Ваше имя:</label>
                     <input type="name" class="form-control" id="donation-form-first-name" placeholder="Имя">
                   </div>
-                  <div class="mb-3">
+                  <div class="mb-1">
                     <label for="donation-form-second-name" class="form-label">Ваша фамилия:</label>
                     <input type="name" class="form-control" id="donation-form-second-name" placeholder="Фамилия">
                   </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Согласен с политиками</label>
+                  <div class="mb-1">
+                    <label for="donation-form-email" class="form-label">Ваш Email:</label>
+                    <input type="email" class="form-control" id="donation-form-email" aria-describedby="emailHelp" placeholder="Email">
                   </div>
-                  <button type="submit" class="btn btn-primary">Пожертвовать</button>
+                  <div class="mb-1 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Согласен с условиями оферты  и политики конфиденциальности</label>
+                  </div>
+                  <div class="d-flex justify-content-center mt-2">
+                    <button type="submit" class="btn btn-primary ">Пожертвовать</button>
+                  </div>
                 </form>
               </section>
             </div>

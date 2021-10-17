@@ -36,3 +36,19 @@ a.underline:hover:before {
 .up-30 {
   padding: 0 30px 0 30px;
 } 
+
+
+//COMPONENTS
+.form-control {
+  border-color: $base-gold;
+  border-width: 2px;
+}
+
+.form-label {
+  margin-bottom: 0.2rem;
+}
+
+.btn-primary {
+  background-color: $deep-gold;
+  border-color: $base-gold;
+}

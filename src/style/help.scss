@@ -15,8 +15,8 @@
   padding: 40px 0 40px 0px;
 }
 
-.help__donation {
-  padding: 15px 0 40px 0;
+.donation {
+  margin-top: 2rem;
 }
 
 .donation__title {
@@ -24,4 +24,19 @@
   padding-bottom: 10px;
   margin: 0 25px 0 25px;
   border-bottom: 2px solid $base-gold;
+}
+
+.donation__form {
+  padding-top: 1.5rem;
+}
+
+@media (min-width: 991px) {
+  .donation {
+    margin-top: 0;
+  }
+
+  .donation__form {
+    max-width: 60%;
+    margin: 0 auto;
+  }
 }
