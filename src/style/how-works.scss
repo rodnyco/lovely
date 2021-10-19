@@ -2,11 +2,45 @@
   background: $base-gold url('../static/children-flower.jpg') no-repeat 0% 0%;
   background-position: center center;
   background-size: cover;
-  background-size: auto;
+  padding: 15px;
+}
+
+.how-works__title {
+  text-align: center;
 }
 
 .feature {
   background-color: $white;
+  max-width: 90%;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 20px;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.feature__title {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    padding-left: 5px;
+  }
+  img {
+    max-width: 10%;
+    max-height: 10%;
+  }
+}
+
+@media (min-width: 991px) {
+  .feature {
+    // max-width: 35%;
+  }
 }
