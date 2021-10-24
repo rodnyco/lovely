@@ -3,6 +3,10 @@ body {
   font-style: normal, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 // LINKS
 a.underline {
   position: relative;
@@ -24,6 +28,10 @@ a.underline:before {
 a.underline:hover:before {
   visibility: visible;
   width: 100%;
+}
+
+a.link-base {
+  color: $deep-gold;
 }
 
 //LOGO

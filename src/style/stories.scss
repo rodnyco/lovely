@@ -1,0 +1,31 @@
+.stories {
+  margin-top: 30px;
+}
+
+.stories__title {
+  text-align: center;
+}
+
+.story {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.story__title {
+  font-weight: bold;
+}
+
+.story__description {
+  text-align: justify;
+}
+
+.stories__btn {
+  margin-top: 50px;
+}
+
+.stories__more {
+  padding-top: 20px;
+  text-align: center;
+  color: $base-gold;
+  font-weight: bold;
+}
