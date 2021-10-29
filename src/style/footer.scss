@@ -1,0 +1,16 @@
+.footer {
+  padding: 50px;
+  background-color: $gray;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.footer__about p {
+  text-align: justify;
+}
