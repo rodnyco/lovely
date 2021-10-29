@@ -31,3 +31,9 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 576px) {
+  .donation {
+    padding-bottom: 40px;
+  }
+}
